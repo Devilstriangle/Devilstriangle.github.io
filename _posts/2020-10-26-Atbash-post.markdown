@@ -11,5 +11,5 @@ Lets take the sentence"Cryptography is a broad concept", for encrypting it using
 C R Y P T O G R A P H Y I S A B R O A D C O N C E P T
 becomes
 X I B K G L T I Z K S B R H Z Y I L Z W X L M X V K G
-{% endhighlights ruby %}
+{% endhighlight ruby %}
 
