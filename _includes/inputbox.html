@@ -1,0 +1,22 @@
+
+<div>
+  <label for="Input">Enter your plaintext to be encrypted:</label>
+    <input type="text" id="plain-text" name="Input"/>
+  <label for="Output">Ciphertext:</label>
+    <input type="text" id="encrypted-text" name="Output" disabled="true"/>
+    <button onclick="submit()">Encrypt</button>
+    <button onclick="decrypt_data()">Decrypt</button>
+  <div>
+    <script src="/js/atbash.js" type="text/javascript"></script>
+  <script>
+    function submit(e){
+      console.log("submit clicked");
+      let result = encrypt(document.getElementById("plain-text").value)
+      document.getElementById("encrypted-text").value = result;
+    }
+    function decrypt_data(){
+      console.log("decrpyt clicked");
+      let result = decrypt(document.getElementById("encrypted-text").value)
+      document.getElementById("plain-text").value = result;
+    }
+  </script>

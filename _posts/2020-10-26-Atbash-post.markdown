@@ -12,20 +12,4 @@ becomes
 X I B K G L T I Z K S B R H Z Y I L Z W X L M X V K G
 {% endhighlight ruby %}
 Therefore the ciphertext becomes "xibkgltizksbrhzyilzwxlmxvkg".
-
-<div>
-<label for="Input">Enter your plaintext to be encrypted:</label>
-  <input type="text" id="cipher_input" name="Input"/></div>
-
-<div>
-<label for="Output">Ciphertext:</label>
-  <input type="text" id="plain_text" name="Output"/><div>
-  
-
-
-
-
-
-
-
-
+{% include inputbox.html %}
